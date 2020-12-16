@@ -1,0 +1,26 @@
+.container img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 100%;
+    left: 85%;
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(7, 2, 22);
+    color: white;
+    border: none;
+    padding: 1.5px;
+    cursor: pointer;
+    border-radius: 60%;
+
+  }
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
